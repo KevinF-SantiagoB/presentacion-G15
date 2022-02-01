@@ -1,0 +1,36 @@
+bracket pair colorizer
+indet rainbow
+Material Icon Theme
+
+repositorio: 
+es un espacio de almacenamiento donde se organiza, mantiene y difunde informacion.
+
+snapshot: 
+es un estado de algo en el tiempo.
+
+ramas:
+Son bifurcaciones o variantes de un repositorio, estas pueden contener diferentes archivos y carpetas o tener todo igual excepto por algunas líneas de código.
+
+comandos de git (básico):
+
+git init --> Inicializamos repositorio (lo usamos una sola vez al crear un nuevo proyecto, dentro de la carpeta del proyecto)
+
+git clone --> clona un repositorio
+
+git status --> Nos muestra el estado de working y staging area.
+
+git add . --> agregamos todos los archivos al staging area.
+
+git add archivo.txt --> agregamos el archivo.txt al staging area.
+
+git commit m-"Comentario" --> Se crea un punto en la historia con un mensaje.
+
+git reset archivo.txt --> Quita el archivo.txt del staging area.
+
+git reset --> Quita todos los archivos del staging area.
+
+comandos de manejo de ramas de git:
+
+git branch --> Mostrar todas las ramas que tenemos.
+git branch newBranchName --> Creamos una nueva rama.
+git checkout nombre --> Nos cambiamos a la rama nombre.
