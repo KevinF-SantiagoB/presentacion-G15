@@ -1,0 +1,69 @@
+crear un nuevo repositorio:
+
+git init 
+git add (al agregar al repositorio un archivo, debe de ser con todo su ruta) y para agregar todo debe ser: git add .
+(esto los pone en el stagging area)
+git commit -m "este es el primer comentario"
+
+git branch -M main 
+git remote add origin (ruta del repositorio)
+git push -u origin main (decir que el origen y el main se mezclan)
+
+cd .. (te regresa una carpeta atrás de la ruta)
+
+para hcer un commit es en la palomita
+
+
+que es css
+
+describe como se va a mostrar un documento en la pantalla o como se va a imprimir. Es decir, ofrece el control total sobre estilo y formato de sus documentos.
+
+caracteristicas:
+diseño, responsivo, independencia y mantenimiento.
+
+Selector (es el quien, a quien va el estilo)
+Declaración (es lo que se le aplicará)
+
+3 formas de utilizar el css:
+en el html (interno)
+en línea (dentro de las etiquetas)
+externo (referenciado a una hoja de estilos)
+
+Un selector CSS es la primera parte de una regla CSS que indica al navegador que elementos HTML se seleccionan para aplicarles dicha regla.
+
+Los más comunes son: 
+
+etiqueta
+clase
+id
+
+Propiedades de css:
+float and clear (checarlo)
+
+position.
+static: flujo normal (posición normal del objeto)
+
+relative: se desplaza primero a su posición normal y luego se mueve respecto a top, right, bottom and left
+
+absolute: el elemento es removido del flujo normal del documento. El desplazamiento de la caja tambien se controla con las propiedades top, rigth, bottom y left, pero tomando como base su contenedor padre relativo más cercano si no toma el contenedor inicial.
+
+fixed: Es igual a los otros pero toma como referencia el viewport (la pantalla del dispositivo).
+
+HTML
+Tablas. Antes se usaban para alinear los elementos HTML en una página.
+Sus etiquetas báscias son table (abrir y cerrar), th(encabezados), tr (filas) y td (datos de la tabla).
+
+Form. su etiqueta es form y sirve para poner texto, va por lo general con la etiqueta input.
+tiene propiedades de name (se indica la dirección donde se enviarán los datos cuando el usuario pulse el botón de enviar), method (se defnie el tipo de metodo HTTP a utilizar. Utilizaremos el método get cuando nos interese que los datos se envíen en la propia URL. EN caso contrario, post) y action.
+
+Input. Una de las etiquetas que más utilizaremos para obtener información a modo de campo de entrada de datosen un formulario es la etiqueta input. Su funcionalidad más utilizada es la de server como campo de texto. (type, name, value, form, placeholder, size, autocomplete, autofocus).
+
+Radio Buttons. Checkbox.
+
+Nav
+navigation bar y dentro div
+
+div section - donde esta en el de google
+div section - donde esta el buscador y los dos botones
+
+luego el footer - dentro el de mexico y todos los demás botones
